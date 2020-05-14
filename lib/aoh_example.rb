@@ -34,7 +34,8 @@ end
 require 'pry'
 def aoh_update(aoh, row, key, new_value)
   aoh[row][:key] = new_value
-  binding.binding.pryaoh
+  binding.binding.pry
+  aoh
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
 end
